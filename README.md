@@ -3,6 +3,7 @@
 [![Tesztek](https://github.com/htgitacc/PROJ_hibrid_showcase/actions/workflows/tests.yml/badge.svg)](https://github.com/htgitacc/PROJ_hibrid_showcase/actions/workflows/tests.yml)
 ![Python 3.12 | 3.13](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.66-red)
+![Licenc: MIT + CC BY 4.0](https://img.shields.io/badge/licenc-MIT%20%2B%20CC%20BY%204.0-green)
 
 A Hibrid PM egy általam összeállított **kutatás, módszertan és működő bemutató** arról, hogyan lehet egy
 **AI-projektet** egyszerre prediktív és kísérleti módon vezetni. A mintaprojekt egy kitalált vállalati RAG
@@ -108,3 +109,13 @@ kerülhetett; ami nem volt megerősíthető, azt kihagytuk, és a forrásjegyzé
 
 A böngészős ellenőrzéshez és a képernyőképekhez egyszer: `.venv/bin/playwright install chromium`, majd
 `.venv/bin/python tools/felulet_ellenorzes.py` és `.venv/bin/python tools/screenshots.py`.
+
+## Licenc
+
+- A **kód** (`app.py`, `hibrid_app/`, `tests/`, `tools/`): [MIT](LICENSE).
+- A **tartalom** (`koncepcio/`, `kutatas/`, `docs/`, a képernyőképek): [CC BY 4.0](LICENSE-CONTENT.md) — szabadon
+  felhasználható és átdolgozható, a forrás megjelölésével. A Xyo-példa előzménye a PM-mindenes mintaanyaga
+  (szintén CC BY 4.0).
+
+A Xyo Kft., a szereplők és a szállítók kitaláltak; bármilyen egyezés a valósággal a véletlen műve. A
+Microsoft-termékek nevei a Microsoft védjegyei.

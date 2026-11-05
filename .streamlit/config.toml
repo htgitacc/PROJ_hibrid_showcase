@@ -1,0 +1,28 @@
+[theme]
+base = "light"
+# Egyetlen téma; a színek a pm_all és az sm_all arculatának közepe (hibrid_app/szinek.py, docs/adr/0003).
+primaryColor = "#606243"
+linkColor = "#606243"
+textColor = "#242722"
+backgroundColor = "#f0f1eb"
+secondaryBackgroundColor = "#e4e5dc"
+borderColor = "#d1d4c8"
+baseRadius = "0.6rem"
+# Az „info” dobozok hideg ellenpontja: palakék-zöld a meleg háttéren
+blueTextColor = "#265862"
+blueBackgroundColor = "#ddeae6"
+redTextColor = "#9b2c22"
+redBackgroundColor = "#f3dcd3"
+orangeTextColor = "#8a4b0f"
+orangeBackgroundColor = "#f3e3cc"
+
+[theme.sidebar]
+backgroundColor = "#e7e8de"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Nyilvános demón a hibánál csak a típus látszik, a traceback (fájlútvonalakkal) nem.
+showErrorDetails = "type"
+

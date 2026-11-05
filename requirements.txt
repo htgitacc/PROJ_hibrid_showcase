@@ -1,0 +1,3 @@
+# Pontos verziók (a PROJ_pm_all-ból átvéve): a demó csak azzal fut, amivel a tesztek zöldek voltak.
+streamlit==1.66.0
+pyyaml==6.0.3

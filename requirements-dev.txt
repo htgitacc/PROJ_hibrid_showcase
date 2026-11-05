@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==9.1.1
+ruff==0.17.1  # lint (ruff.toml); a CI is futtatja
+playwright==1.64.0  # tools/felulet_ellenorzes.py (a pm_all-lal azonos verzió; böngésző: `playwright install chromium`)
